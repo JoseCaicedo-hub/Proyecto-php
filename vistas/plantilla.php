@@ -12,7 +12,7 @@
 <body>
 
     <?php
-        include "vistas/modulos/menu.php";
+        include "vistas/modulos/menu.php";	
     ?>
 
 <div class="container-fluid"> 

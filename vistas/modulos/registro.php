@@ -52,7 +52,7 @@
                                 </span>
                             </div>
             
-                            <input type="email" class="form-control" id="email" name="registroEmail">
+                            <input type="email" class="form-control" id="email" name="registroCorreo">
                         
                         </div>
                         
