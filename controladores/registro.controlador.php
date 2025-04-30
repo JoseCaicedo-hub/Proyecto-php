@@ -1,6 +1,6 @@
 <?php
 #require_once "./modelos/conexion.php";
-require_once "./modelos/registro.modelo.php";
+require_once "./modelos/registro.modelos.php";
 class ControladorRegistro{
 
     static public function ctrRegistro(){
