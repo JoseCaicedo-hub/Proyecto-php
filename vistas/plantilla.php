@@ -11,13 +11,14 @@
 </head>
 <body>
 
-    <?php
-        include "vistas/modulos/menu.php";	
-    ?>
+
 
 <div class="container-fluid"> 
 		
 		<div class="container py-5">
+		<?php
+        include "vistas/modulos/menu.php";	
+    ?>
 
 			<?php 
 
@@ -29,6 +30,7 @@
 					   $_GET["modulo"] == "ingreso" ||
 					   $_GET["modulo"] == "contenido" ||
                        $_GET["modulo"] == "inventario" ||
+					   $_GET["modulo"] == "rol" ||
 					   $_GET["modulo"] == "salir"){
 
 						include "modulos/".$_GET["modulo"].".php";
