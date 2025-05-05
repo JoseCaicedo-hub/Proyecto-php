@@ -9,9 +9,11 @@
 
 require_once "controladores/plantilla.controlador.php";
 require_once "controladores/registro.controlador.php";
+require_once "controladores/inventario.controlador.php";
 
 require_once "modelos/registro.modelos.php";
 require_once "modelos/conexion.php";
+require_once "modelos/inventario.modelo.php";
 
 $plantilla = new ControladorPlantilla();
 $plantilla -> ctrPlantilla();
