@@ -72,6 +72,7 @@
                     <li class="nav-item">
                         <a href="index.php?modulo=rol" class="nav-link">Roles</a>
                     </li>
+                    
                 <?php endif; ?>
 
                 <li class="nav-item">
